@@ -1,0 +1,33 @@
+body {
+    background-color: #D5E1EF;
+    /* min-height: 100vh; */
+    font-family: cursive;
+    text-align: center;
+}
+
+.card {
+    height:470px;
+    /* width: 100%; */
+    max-width: 300px;
+    /*Easiest way to center a box here we don't need to give any height to the body*/
+    position: absolute;  
+    margin: auto;
+    inset: 0;
+    /* box-sizing: border-box; */
+    box-shadow: 10px 10px 16px 3px #CBD7E4;
+    background-color: #FEFFFE;
+    border-radius: 20px;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    color:#22314E;
+}
+p{
+    color: #9e9fa0;
+}
