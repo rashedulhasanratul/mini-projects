@@ -1,0 +1,218 @@
+/* *{
+    box-sizing: border-box;
+} */
+body{
+    margin: 0;
+    font-family:  "Salsa", cursive;
+}
+.hero-section{
+    /* min-height: 100vh; */
+    background-color: #F99501;
+    background-image: url(/images/orange-baground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jhalar{
+    width: 190px;
+    margin-bottom: -180px;
+}
+.hero-section p{
+    font-size: 46px;
+    max-width: 500px;
+}
+.para-audio{
+    margin-left: 17rem;
+}
+
+
+audio::-webkit-media-controls-panel{
+    background-color: #FBD8A4; 
+}
+.audio-container{
+    background-color: #FBD8A4;
+    /* max-width: 500px; */
+    max-width: max-content;
+    border-radius:45px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    /* gap:3px; */
+}
+
+.laxmi-ganesh-section{
+    background-color: #F99501;
+    padding-inline:1em ;
+    padding-block: 1em;
+}
+.horizontal-devider{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 1rem;
+    margin: auto;
+    max-width: 800px;
+    margin-bottom: 1rem;
+}
+.horizontal-line{
+    height: 2px;
+    width: 468px;
+    background-color:#FBD8A4;
+}
+ .circle{
+    width:10px;
+    height: 10px;
+    background-color:#FBD8A4;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.laxmi-ganesh-img{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    border-radius: 20px;
+}
+.laxmi-ganesh-section h2{
+    font-family: "Style Script", cursive;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.white-card-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.white-card{
+    background-color: white;
+    max-width:550px;
+    /* align-items: center; */
+    padding: 4rem;
+    border-radius:20px ;
+    /* margin-inline:auto; */
+    display: inline-block;
+    
+}
+.white-card p{  
+    font-size: 2rem;
+}
+
+/* .white-card p:hover{
+    color: #fff;  Change text color
+    text-shadow: 0 0 5px #000000,  Inner glow 
+                 0 0 10px #00f2ff37,  Outer glow 
+                 0 0 15px #3e0c02; Stronger outer glow 
+} */
+
+.little-girl-img{
+    width: 260px;
+    margin-left: -5rem;
+}
+.laxmi-ganesh-card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4rem;
+    max-width:772px;
+    display: flex;
+    margin-inline: auto;
+}
+.laxmi-ganesh-card img{
+    width: 50%;
+}
+.thankyou-text{
+    margin-inline: auto;
+    width: 100%;
+    max-width: 900px;
+    /* padding-block: 1rem;
+    padding-left: 0;
+    padding-right: 7rem; */
+    /* background-color: #FBD8A4; */
+}
+.thankyou-text h2{
+    text-align: left;
+}
+.myname{
+    text-align: right;
+    font-size: 16px;
+}
+
+@media(max-width: 840px){
+    .second-deepak,.soulful-music,.playing-music{
+        display: none;
+    }
+    .first-deepak{
+        display: block;
+        margin-left:auto;
+    }
+    .para-audio{
+        margin-left: 1rem;
+    }
+    .jhalar{
+        margin-bottom: 0px;
+    }
+    .hero-section p{
+        font-size: 28px;
+    }
+    .white-card p{  
+        font-size: 1.25rem;
+    }
+    .little-girl-img{
+        max-width: 160px;
+    }
+    .white-card{
+        padding-block:2rem;
+        padding-left: 1rem;
+    }
+    .laxmi-ganesh-card{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:470px){
+    .hero-section p{
+        font-size: 24px;
+    }
+    .first-deepak{
+      width: 100%;
+      max-width: 300px;
+    }
+    .laxmi-ganesh-section h2{
+        font-size: 24px;
+    }
+    .white-card p{  
+        font-size: 1rem;
+    }
+    .little-girl-img{
+        max-width: 140px;
+    }
+
+}
+
+@media(max-width:470px){
+    .hero-section p{
+        font-size: 24px;
+    }
+    .first-deepak{
+      width: 100%;
+      max-width: 300px;
+    }
+    .laxmi-ganesh-section h2{
+        font-size: 24px;
+    }
+    .white-card p{  
+        font-size: 0.9rem;
+    }
+    .little-girl-img{
+        max-width: 140px;
+    }
+
+}
+
+/* @media(width<840px){
+    .second-deepak{
+        display: none;
+    }
+} */
